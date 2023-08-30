@@ -1,7 +1,8 @@
 # Oreilly-Scraper
 Obtain product name, price and availability for a given O'reilly Store 
 This script gathers product names, prices and availability information, and stores the data in a CSV file.
-
+- In case Github doesn't display the Jupyter Notebook please enter here: https://nbviewer.org/github/acbouzas/O-reilly-Scraper/blob/main/Oreilly.ipynb
+  
 ## Usage
 
 1. **Preparing Data:**
@@ -22,7 +23,6 @@ This script gathers product names, prices and availability information, and stor
 ## Important Notes
 
 - It's recommended to periodically review the O'Reilly website's structure to ensure the script remains compatible with any changes.
-- In case Github doesn't display the Jupyter Notebook please enter here: https://nbviewer.org/github/acbouzas/O-reilly-Scraper/blob/main/Oreilly.ipynb 
 
 ![oreilly_screenshot](https://github.com/acbouzas/O-reilly-Scraper/blob/main/images/oreillyscreenshot.png)
 
