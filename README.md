@@ -16,15 +16,17 @@ This script gathers product names, prices and availability information, and stor
 4. **Running the Script:**
    - The script processes a subset of the provided links. The variable `urls_test` is set to a sample of 1000 links for demonstration purposes. Modify it according to your needs.
 
+5. **Exception Handling**
+   - The script employs exception handling to manage errors during scraping. Failed requests and errors are logged in a separate DataFrame named df_exceptions. This aids in identifying issues, debugging, and improving the script's reliability.
+
 ## Important Notes
 
 - It's recommended to periodically review the O'Reilly website's structure to ensure the script remains compatible with any changes.
-
-
-In case Github doesn't display the Jupyter Notebook please enter here: https://nbviewer.org/github/acbouzas/Amazon-Scraper/blob/main/AmazonScraper.ipynb
+- In case Github doesn't display the Jupyter Notebook please enter here: https://nbviewer.org/github/acbouzas/Amazon-Scraper/blob/main/AmazonScraper.ipynb
 This script is designed to extract product details from a given list of O'Reilly Auto Parts store links. 
 
-![amazon_screenshot](https://github.com/acbouzas/Amazon-Scraper/blob/main/images/AmazonScreenshot.png)
+![oreilly_screenshot](https://github.com/acbouzas/O-reilly-Scraper/blob/main/images/oreillyscreenshot.png)
 
-![df_example](https://github.com/acbouzas/Amazon-Scraper/blob/main/images/dfscreenshot.png)
+![df_example](https://github.com/acbouzas/O-reilly-Scraper/blob/main/images/dfscreenshot.png)
 
+![exceptions_example](https://github.com/acbouzas/O-reilly-Scraper/blob/main/images/exceptionscreenshot.png)
